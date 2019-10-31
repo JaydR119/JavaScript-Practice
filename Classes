@@ -1,0 +1,34 @@
+class PlayerAtr{
+  constructor(playerName, playerType, playerHealth, elementalStr, elementalWeak, limitBreak) {
+    this.playerName = playerName;
+    this.playerType = playerType;
+    this.playerHealth = playerHealth;
+    this.elementalStr = elementalStr;
+    this.elementalWeak = elementalWeak;
+    this.limitBreak = limitBreak;
+  }
+
+  statePlayerName()  {
+    return `I am ${this.playerName}.`
+  }
+
+  statePlayerType() {
+    return `My class is ${this.playerType}`
+  }
+
+  stateHealth()  {
+    return `My HP is ${this.playerHealth}`
+  }
+
+  stateStr()  {
+    return `My elemental strength is ${this.elementalStr}`
+  }
+
+  stateWeak()  {
+    return `My elemental weakness is ${this.elementalWeak}`
+  }
+
+  stateLimitBreak()  {
+    return `My limit Break is ${this.limitBreak}`
+  }
+}
